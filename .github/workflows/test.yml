@@ -19,7 +19,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Synthesize 
-        run: cdk synth
+        run: echo cdk synth
         
       - name: Diff
-        run: cdk diff
+        run: echo cdk diff
