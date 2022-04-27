@@ -2,6 +2,7 @@ name: Push
 on:
   workflow_dispatch:
   repository_dispatch:
+    types: http-trigger
 jobs:
   build:
     runs-on: ubuntu-latest
